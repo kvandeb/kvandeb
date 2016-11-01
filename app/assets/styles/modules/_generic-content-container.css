@@ -1,0 +1,19 @@
+/**
+ * Against the BEM philosphy
+ * WYSIWYG
+ */
+.generic-content-container {
+  p {
+    margin: 1.8rem 0;
+    line-height: 1.65; /* no unit of measurement */
+
+    @mixin atSmall {
+      font-size: 1.125rem; /* 18/16 */
+    }
+
+  }
+
+  p a {
+    font-weight: 700;
+  }
+}
